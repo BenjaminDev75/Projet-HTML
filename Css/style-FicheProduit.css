@@ -1,0 +1,106 @@
+.product-image-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 0.5% auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.CatégorieCard {
+    width: 89%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 1% auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(to right, #99ccff 0%, #cc99ff 100%);
+}
+
+.image-cadre {
+    display: flex;
+    flex-wrap: wrap;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #ddd;
+    min-width: 380px;
+    min-height: 350px ;
+    width:auto;
+    height: auto;
+}
+
+p {
+    justify-content: center;
+}
+
+.product-details {
+    flex: 1;
+    /* La nouvelle div prendra autant d'espace que possible */
+    padding: 20px;
+    text-align: center;
+    /* Alignement du texte à gauche à l'intérieur de la nouvelle div */
+    font-size: 150%;
+}
+
+.product-details h2 {
+    margin-top: 0;
+    /* Supprime la marge supérieure du titre */
+}
+
+.product-details p {
+    margin-bottom: 10px;
+    /* Ajoute de l'espace en bas des paragraphes */
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.catecard {
+    font-family: 'Russo One', sans-serif;
+}
+
+.product-card {
+    padding: 1% ;
+    margin: 3% auto;
+    width: 90%;
+    font-weight: 2%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #99ccff;
+    color: black;
+    box-shadow: 0 0 25px #9999ff,
+        0 0 25px #9999ff,
+        0 0 5px #9999ff inset;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-info {
+    margin-left: 10%;
+}
+
+.FicheTech {
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+table tr th {
+    display: block;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+    font-family: 'Russo One', sans-serif;
+}

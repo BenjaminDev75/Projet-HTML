@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="JavaScript/Acceuil.js" defer></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Projet HTML</title>
+
+    </head>
+
+<body>
+
+    <!-- Partie HTML de la barre de navigation -->
+
+    <div class="body-header">
+        <div class="header">
+            <div class="container">
+                <div class="nav-menu">
+                    <div class="Logo-Site">
+                        <img src="image/Logo-Site/LogoSiteSF.png" alt="LogoSite" class="Logo-Site">
+                    </div>
+                    <nav>
+                        <div id="menuBurger">
+                            <input type="checkbox" id="CheckBox"/>
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                            <ul id="menu">
+                                <a href="../index.html"> 
+                                    <li>Acceuil</li>
+                                </a>
+                                <a href="../Page/Ordinateurs.html">
+                                    <li>Ordinateurs</li>
+                                </a>
+                                <a href="../Page/Périphériques.html">
+                                    <li>Périphériques</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Partie HTML du Slider -->
+
+    <div class="slider-image">
+        <div class="image">
+            <img id="ImageSlide" src="image/image-Slide/1.png" alt="Image 1">
+            <div class="bouton">
+                <button id="btn-Précédent" onclick="changeImage(-1)"> < </button>
+                <button id="btn-Suivant" onclick="changeImage(1)"> > </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Partie HTML de Best Seller -->
+
+    <div class="Best-Sell">
+        <div class="titre">
+            <p> Best Seller </p>
+        </div>
+        <div class="bestVentePc">
+            <a class="boxBest Best1">
+                <div class="Pc-detail">
+                    <button class="btnOrdi" onclick="window.location.href = 'Page/Page-Ordinateur/PageOrdi1.html';">En savoir plus</button>
+                    <p class="Pc-Name">Asus ROG STRIX G17</p>
+                    <p class="Pc-Prix">1 499,99 €</p>
+                </div>
+            </a>
+            <a class="boxBest Best2">
+                <div class="Pc-detail">
+                    <button class="btnOrdi" onclick="window.location.href = 'Page/Page-Périphériques/PagePeriph7.html';">En savoir plus</button>
+                    <p class="Pc-Name">Corsair XENEON FLEX</p>
+                    <p class="Pc-Prix"><s>2 399,99 €</s> 1 299,99 €</p>
+                </div>
+            </a>
+            <a class="boxBest Best3">
+                <div class="Pc-detail">
+                    <button class="btnOrdi" onclick="window.location.href = 'Page/Page-Ordinateur/PageOrdi5.html';">En savoir plus</button>
+                    <p class="Pc-Name">ROG Strix</p>
+                    <p class="Pc-Prix">949,99 €</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Partie HTML de la Bande d'information -->
+
+    <div class="InfoCli">
+        <div class="BandeInfo">
+            <a class="boxInfo Info1">
+                <div class="Icon-detail">
+                    <p class="service">Livraison Gratuite</p>
+                </div>
+            </a>
+            <a class="boxInfo Info2">
+                <div class="Icon-detail">
+                    <p class="service">Paiement Sécurisé</p>
+                </div>
+            </a>
+            <a class="boxInfo Info3">
+                <div class="Icon-detail">
+                    <p class="service">Service Client 7j/7</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Partie HTML des Avis clients -->
+
+    <div class="Avis">
+        <div class="imageAvis">
+            <img src="image/Avis.png">
+        </div>
+    </div>
+
+    <!-- Partie HTML du Footer (Pied de page) -->
+
+    <footer>
+        <div class="InfoGeneral">
+            <div class="row">
+                <div class="col">
+                    <h5>À propos de nous</h5>
+                    <p>
+                        Nous sommes deux étudiants en BTS SIO 1 LM, suite à la demande de notre professeur de SISR, 
+                        madame El Attar, nous avons créé ce site dans le cadre d'un exercice.Nous espérons que notre devoir vous satisfera pleinement ! 
+                        Faite confiance à Computech, la ou la puisance et la qualité fait jeu égale !
+                    </p>
+                </div>
+                <div class="col">
+                    <h5>Contactez-nous</h5>
+                    <p>Email: info-contact@computech.com</p>
+                    <p>Téléphone: 05 16 44 55 04</p>
+                    <p>Adresse : 2 Impasse Budgétaire, 39300, Champagnole </p>
+                </div>
+                <div class="col">
+                    <h5>Suivez-nous</h5>
+                    <div class="footerInfo">
+                        <a class="boxFootInfo FootInfo1">
+                            <div class="FootIcon-detail">
+                            </div>
+                        </a>
+                        <a class="boxFootInfo FootInfo2">
+                            <div class="FootIcon-detail">
+                            </div>
+                        </a>
+                        <a class="boxFootInfo FootInfo3">
+                            <div class="FootIcon-detail">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <p class="copyright">© 2024 COMPUTECH. Tous les droits sont réservés.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>

@@ -1,0 +1,12 @@
+/* Ce fichier sert de centralisation de tous les fichier css utilisé dans le site web !*/
+
+@import url("Css/style-AvisClients.css");
+@import url("Css/style-BestSeller.css");
+@import url("Css/style-CustumerInfo.css");
+@import url("Css/style-FicheProduit.css");
+@import url("Css/style-Footer.css");
+@import url("Css/style-NavMenu.css");
+@import url("Css/style-Ordinateur.css");
+@import url("Css/style-Périphériques.css");
+@import url("Css/style-Slider.css");
+@import url("Css/style-TechInfo.css");

@@ -1,0 +1,66 @@
+/*============================Partie cadre image============================*/
+
+.slider-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* On défini les paramètre des boutons du slider*/
+
+.bouton{
+    opacity: 1;
+    cursor: pointer;
+    display: block;
+}
+
+/* ".image" fait en sorte que les dimensions du cadre de l'image s'adapte à la taille de la fenêtre*/
+
+.image{
+    border: 5px solid  #b3b3b3;
+    position: relative;
+    border-radius: 5px 10px 10px 10px;
+    max-width: 1500px;
+    max-height: 450px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin-top: 1%;
+}
+
+/* ".image img" fait en sorte que les dimensions de l'image s'adapte à la taille du cadre sans déformer l'image*/
+
+.image img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 1px 5px 5px 5px;
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    transition:  10s ease-in-out; /* Ajout de la transition ici */
+    
+}
+
+/*============================Partie Bouton Slider============================*/
+
+#btn-Précédent, #btn-Suivant{
+    position: absolute;
+    display: inline-block ;
+    cursor: pointer ;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: black;
+    border-radius: 10%;
+    color: lightgrey;
+    padding: 10px;
+    font-size: 150%;
+}
+
+#btn-Précédent{
+    left:1%;
+    bottom: 40%; left:1%;
+}
+
+#btn-Suivant{
+    right: 1%;
+    bottom: 40%; right:1%;
+}

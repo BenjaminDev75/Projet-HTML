@@ -1,0 +1,70 @@
+/*============================Partie Titre ============================*/
+
+.Best-Sell{
+    margin: 1% ;
+}
+
+.titre{
+    font-family: 'Russo One', sans-serif;
+    font-size: 200%;
+    position: relative;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.titre::after{
+    content: "";
+    position: absolute;
+    background: linear-gradient(to right, #9966ff 0%, #3366ff 100%);
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+    margin:-0.3%;
+    margin-left: 0.1%;
+}
+
+.bestVentePc{
+    justify-content: space-around;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxBest{
+    
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 400px;
+    height: 400px;
+}
+
+.Best1{
+    background-image: url("../image/image-Ordinateur/pc1.png");
+}
+
+.Best2{
+    background-image: url("../image/image-Périphériques/Periph7.png");
+}
+
+.Best3{
+    background-image: url("../image/image-Ordinateur/pc5.png");
+}
+
+.Pc-detail{
+    position: absolute;
+    width: 90%;
+    bottom: 0;
+    color: black;
+    background-color: lightgray;
+    padding: 5px 20px;
+}
+
+.Pc-Name{
+    font-family:'Russo One', sans-serif ;
+    line-height: 3px;
+}
+
+.Pc-Prix{
+    line-height: 3px;
+}

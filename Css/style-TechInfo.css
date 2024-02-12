@@ -1,0 +1,66 @@
+.InfoTech{
+    margin: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BandeTech{
+    min-height: 256px;
+    width: 90%;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxTech{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Modèle des logos */
+
+.AmdRadeon{
+    background-image: url("../image/Icon-Site/i7.png");
+    min-width: 350px;
+    height: 190px;
+}
+
+.Intel-i5{
+    background-image: url("../image/Icon-Site/i10-1.png");
+    min-width: 256px;
+    height: 190px;
+}
+.Intel-i7{
+    background-image: url("../image/Icon-Site/i10-2.png");
+    min-width: 256px;
+    height: 190px;
+}
+
+.Intel-i9{
+    background-image: url("../image/Icon-Site/i10.png");
+    min-width: 256px;
+    height: 156px;
+}
+
+.NviGTX{
+    background-image: url("../image/Icon-Site/i8-1.png");
+    min-width: 350px;
+    height: 190px;
+}
+
+.NviRTX{
+    background-image: url("../image/Icon-Site/i8.png");
+    min-width: 350px;
+    height: 190px;
+}
+
+.Win{
+    background-image: url("../image/Icon-Site/i9-1.png");
+    min-width: 365px;
+    height:190px;
+}

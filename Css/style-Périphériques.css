@@ -1,0 +1,119 @@
+.VentePeriph {
+    display:flex;
+    margin-left: 9%;
+    transform: translateX(-6%);
+    justify-content: center;
+}
+
+.CadrePeriph{
+    justify-content: space-around;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxPeriph{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 400px;
+    height: 400px;
+}
+
+.Periph1{
+    background-image: url("../image/image-Périphériques/Periph1.png");
+    margin-left: 2%;
+}
+
+.Periph2{
+    background-image: url("../image/image-Périphériques/Periph2.png");
+    margin-left: 2%;
+}
+
+.Periph3{
+    background-image: url("../image/image-Périphériques/Periph3.png");
+    margin-left: 2%;
+}
+
+.Periph4{
+    background-image: url("../image/image-Périphériques/Periph4.png");
+    margin-left: 2%;
+}
+
+.Periph5{
+    background-image: url("../image/image-Périphériques/Periph5.png");
+    margin-left: 2%;
+}
+
+.Periph6{
+    background-image: url("../image/image-Périphériques/Periph6.png");
+    margin-left: 2%;
+}
+
+.Periph7{
+    background-image: url("../image/image-Périphériques/Periph7.png");
+    margin-left: 2%;
+}
+
+.Periph8{
+    background-image: url("../image/image-Périphériques/Periph8.png");
+    margin-left: 2%;
+}
+
+.Periph9{
+    background-image: url("../image/image-Périphériques/Periph9.png");
+    margin-left: 2%;
+}
+
+.Periph-detail{
+    position: absolute;
+    width: 90%;
+    bottom: 0;
+    background-color: lightgray;
+    color: black;
+    padding: 5px 20px;
+}
+
+.Periph-Name{
+    font-family:'Russo One', sans-serif ;
+    line-height: 3px;
+}
+
+.Periph-Prix{
+    line-height: 3px;
+}
+.btnPeriph {
+    position: absolute;
+    margin-left: 66%;
+    bottom: 25%;
+}
+
+.btnPeriph {
+    font-family: inherit;
+    width: 25%;
+    height: 2.5em;
+    border-radius: 30em;
+    font-size: 15px;
+    border: none;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #ffffff;
+}
+
+.btnPeriph::before {
+    content: '';
+    width: 0%;
+    height: 100%;
+    border-radius: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #99ccff 0%, #9999ff 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.btnPeriph:hover::before {
+    width: 9em;
+}

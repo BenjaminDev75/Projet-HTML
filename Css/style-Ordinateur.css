@@ -1,0 +1,120 @@
+.VenteOrdi {
+    display:flex;
+    margin-left: 9%;
+    transform: translateX(-6%);
+    justify-content: center;
+}
+
+.CadreOrdi{
+    justify-content: space-around;
+    min-height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxOrdi {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 400px;
+    height: 400px;
+}
+
+.Ordi1 {
+    background-image: url("../image/image-Ordinateur/pc1.png");
+    margin-left: 2%;
+}
+
+.Ordi2 {
+    background-image: url("../image/image-Ordinateur/pc2.png");
+    margin-left: 2%;
+}
+
+.Ordi3 {
+    background-image: url("../image/image-Ordinateur/pc3.png");
+    margin-left: 2%;
+}
+
+.Ordi4 {
+    background-image: url("../image/image-Ordinateur/pc4.png");
+    margin-left: 2%;
+}
+
+.Ordi5 {
+    background-image: url("../image/image-Ordinateur/pc5.png");
+    margin-left: 2%;
+}
+
+.Ordi6 {
+    background-image: url("../image/image-Ordinateur/pc6.png");
+    margin-left: 2%;
+}
+
+.Ordi7 {
+    background-image: url("../image/image-Ordinateur/pc7.png");
+    margin-left: 2%;
+}
+
+.Ordi8 {
+    background-image: url("../image/image-Ordinateur/pc8.png");
+    margin-left: 2%;
+}
+
+.Ordi9 {
+    background-image: url("../image/image-Ordinateur/pc9.png");
+    margin-left: 2%;
+}
+
+.Ordi-detail {
+    position: absolute;
+    width: 90%;
+    bottom: 0;
+    background-color: lightgray;
+    color: black;
+    padding: 5px 20px;
+}
+
+.Ordi-Name {
+    font-family: 'Russo One', sans-serif;
+    line-height: 3px;
+}
+
+.Ordi-Prix {
+    line-height: 3px;
+}
+
+.btnOrdi {
+    position: absolute;
+    margin-left: 66%;
+    bottom: 25%;
+}
+
+.btnOrdi {
+    font-family: inherit;
+    width: 25%;
+    height: 2.5em;
+    border-radius: 30em;
+    font-size: 15px;
+    border: none;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #ffffff;
+}
+
+.btnOrdi::before {
+    content: '';
+    width: 0%;
+    height: 100%;
+    border-radius: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #99ccff 0%, #9999ff 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.btnOrdi:hover::before {
+    width: 9em;
+}

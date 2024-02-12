@@ -1,0 +1,86 @@
+footer {
+    background-color: #333;
+    margin-top: 5%;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.InfoGeneral {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    margin: 0 -15px;
+}
+
+.col {
+    padding: 0 15px;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+}
+
+
+footer h5 {
+    font-family: 'Russo One', sans-serif;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+footer p {
+    margin: 0 0 10px;
+    color: white;
+}
+
+footer a {
+    background-image: url("../image/Icon-Site/i4.png");
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: smaller;
+}
+
+.footerInfo{
+    min-height: 48px;
+    height: 125px;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxFootInfo{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 48px;
+    height: 48px;
+}
+
+.FootInfo1{
+    background-image: url("../image/Icon-Site/i4.png");
+    margin-right: 10%;
+}
+
+.FootInfo2{
+    background-image: url("../image/Icon-Site/i5.png");
+    margin-right: 10%;
+}
+
+.FootInfo3{
+    background-image: url("../image/Icon-Site/i6.png");
+}
+
+.FootIcon-detail{
+    position: absolute;
+    margin-top: 75%;
+    width: 100%;
+    bottom: 1;
+    font-size: smaller;
+}

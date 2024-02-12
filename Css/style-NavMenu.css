@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/*============================Partie corps de la page web============================*/
+
+body{
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.body-header{
+    margin: 0 auto;
+    font-family: 'Russo One', sans-serif;
+    background-color: lightgray;
+}
+
+/* ======================================== menu ================================== */
+
+.Logo-Site {
+    width: 150px;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex: 1;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+#menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#menu ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#menu a {
+    font-size: large;
+    text-decoration: none;
+    color:  lightgray;
+}
+
+#menu a:hover {
+    color: tomato;
+}
+
+#menuBurger input{
+    opacity: 0;
+}
+
+.container {
+    margin: auto;
+    background: linear-gradient(to right, #3366ff 0%, #9966ff 100%);
+}
+
+/* ================================= menu burger avec tel ========================= */
+
+
+@media screen and (max-width: 768px) {
+    #menu {
+        position:absolute;
+        width: 300px;
+        margin: -100px 0 0 0;
+        padding: 50px;
+        padding-top: 125px;
+        right: -100px;
+        
+        background: #ededed;
+        list-style-type: none;
+
+        transform:translate(100%, 0);
+        opacity: 0;
+    }
+
+    #menuBurger {
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        z-index: 1;
+    }
+
+    #menuBurger input {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: 9px;
+        left: -7px;
+        cursor: pointer;
+
+        opacity: 0;
+        z-index: 2;
+    }
+
+
+    #menuBurger span {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-top: 15px;
+        margin-bottom: -10px;
+
+        position: relative;
+        background: #cdcdcd;
+        border-radius: 3px;
+
+        z-index: 1;
+    }
+
+    #menu li {
+        padding: 20px;
+        font-size: 22px;
+        display: inline-block;
+    }
+
+    #menuBurger input:checked ~ span{
+        opacity: 1;
+        background: #232323;
+        }
+
+    #menuBurger input:checked ~ ul {
+        transform: none;
+        transition: 0.5s;
+        opacity: 1;
+    }
+
+
+    #menuBurger nav {
+        opacity: 0;
+    }
+
+
+    #menu a {
+        text-decoration: none;
+        font-size: large;
+        color:  black;
+    }
+    #menu a:hover {
+        color: tomato;
+    }
+}
